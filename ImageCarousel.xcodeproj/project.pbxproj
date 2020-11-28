@@ -13,6 +13,7 @@
 		528F7C6C257221D600EBB0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528F7C6B257221D600EBB0A0 /* Assets.xcassets */; };
 		528F7C6F257221D600EBB0A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528F7C6E257221D600EBB0A0 /* Preview Assets.xcassets */; };
 		528F7C72257221D600EBB0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F7C70257221D600EBB0A0 /* LaunchScreen.storyboard */; };
+		528F7C7B2572268300EBB0A0 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F7C7A2572268300EBB0A0 /* ImageCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		528F7C6E257221D600EBB0A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		528F7C71257221D600EBB0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528F7C73257221D600EBB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528F7C7A2572268300EBB0A0 /* ImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				528F7C65257221D500EBB0A0 /* AppDelegate.swift */,
 				528F7C67257221D500EBB0A0 /* SceneDelegate.swift */,
 				528F7C69257221D500EBB0A0 /* ContentView.swift */,
+				528F7C7A2572268300EBB0A0 /* ImageCarousel.swift */,
 				528F7C6B257221D600EBB0A0 /* Assets.xcassets */,
 				528F7C70257221D600EBB0A0 /* LaunchScreen.storyboard */,
 				528F7C73257221D600EBB0A0 /* Info.plist */,
@@ -148,6 +151,7 @@
 				528F7C66257221D500EBB0A0 /* AppDelegate.swift in Sources */,
 				528F7C68257221D500EBB0A0 /* SceneDelegate.swift in Sources */,
 				528F7C6A257221D500EBB0A0 /* ContentView.swift in Sources */,
+				528F7C7B2572268300EBB0A0 /* ImageCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
