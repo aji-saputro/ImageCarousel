@@ -15,13 +15,13 @@ struct ImageCarousel<Content: View>: View {
   @State private var currentIndex: Int = 0
   private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
   
-  init(numberOfImages : Int, @ViewBuilder conten : () -> Content) {
+  init(numberOfImages : Int, @ViewBuilder content : () -> Content) {
     self.numberOfImages = numberOfImages
     self.content = content()
   }
   
   var body: some View {
-    GeometryReader { goe in
+    GeometryReader { geo in
       ZStack(alignment: .bottom) {
         HStack(spacing: 0) {
           self.content
@@ -35,7 +35,7 @@ struct ImageCarousel<Content: View>: View {
         HStack(spacing: 3){
           ForEach(0..<self.numberOfImages, id: \.self) { index in
             Circle()
-              .frame(width: index == self.currentIndex ? 10:8, height: index == self.currentIndex ? 10:8)
+              .frame(width: index == self.currentIndex ? 10: 8, height: index == self.currentIndex ? 10 : 8)
               .foregroundColor(index == self.currentIndex ? .blue : .white)
               .overlay(Circle().stroke(Color.gray, lineWidth: 1))
               .padding(.bottom, 8)
